@@ -7,5 +7,7 @@ Senior citizens often face significant barriers in accessing essential informati
 The website mainly focuses on making it as easy as possible for senior citizens with features like voice input and voice output .
 
 install python 
+
 pip -r install requirements.txt
+
 host it in your server after using ur api key in .env
