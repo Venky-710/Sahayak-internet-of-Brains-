@@ -1,0 +1,24 @@
+<!-- templates/homepage.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Senior Companion - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to Sahayak</h1>
+        <p>Select a mode to get started:</p>
+        <div class="mode-buttons">
+            <a href="/information" class="mode-btn">Information Mode</a>
+            <a href="/religion" class="mode-btn">Religious Mode</a>
+            <a href="/wellness" class="mode-btn">Wellness Mode</a>
+            <a href="/order" class="mode-btn">Order Mode</a>
+        </div>
+    </div>
+</body>
+
+</html>

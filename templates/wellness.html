@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wellness Mode - Senior Companion</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/wellness.css') }}">
+</head>
+
+<body>
+    <a href="/" class="home-button animate-fade">🏠 Back to Home</a>
+
+    <h1 class="animate-slide">Wellness Mode</h1>
+
+    <textarea id="user-query" placeholder="Ask something..." class="animate-fade"></textarea>
+
+    <div class="controls animate-fade">
+        <button id="submit-query">Submit</button>
+        <button id="speak-button">🎤 Speak</button>
+        <button id="read-aloud">🔊 Read Aloud</button>
+        <button id="mute-response">🔇 Mute</button>
+    </div>
+
+    <div id="ai-response" class="animate-fade">Your response will appear here.</div>
+    <div id="loading-spinner" style="display:none;">⏳ Processing...</div>
+
+    <script src="{{ url_for('static', filename='js/wellness.js') }}"></script>
+</body>
+
+</html>
